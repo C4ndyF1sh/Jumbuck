@@ -49,6 +49,19 @@ struct HomeView: View {
                             }
                             .buttonStyle(TintedButton(material: .systemMaterial, fullwidth: false))
                         }
+
+                        //Fish button: A button that does absolutley nothing when pressed 🐟
+                        HStack {
+                            Button("Fish Button") {}
+                            .buttonStyle(TintedButton(color: .red, fullwidth: true))
+                            Button {
+                                UIApplication.shared.alert(title: NSLocalizedString("🐟", comment: "🐟"), body: NSLocalizedString("🐟", comment: "🐟"))
+                            } label: {
+                                Image(systemName: "info")
+                            }
+                            .buttonStyle(TintedButton(material: .systemMaterial, fullwidth: false))
+                        }
+
                         // remove all tweaks button
                         HStack {
                             Button("Remove All Tweaks") {
