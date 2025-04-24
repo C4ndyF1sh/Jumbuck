@@ -1,6 +1,7 @@
-![Artboard](https://github.com/leminlimez/Nugget-Mobile/blob/1881fdc2b721fd2675a2909e7fbc24769d11bb53/readme-images/icon.png)
+![Artboard]!(https://github.com/user-attachments/assets/fb2e2fa3-8ede-4c19-b9ba-83fbcda03b4f)
 
-# Nugget (mobile)
+
+# Jumbuck
 Unlock your device's full potential! Should work on all versions iOS 16.0 - 18.2 developer beta 2 (public beta 1).
 
 This will not work on iOS 18.2 beta 2 or newer. Please do not make issues about this, it will not be fixed. You will have to use the [pc version of Nugget](https://github.com/leminlimez/Nugget) unless a fix comes in the future.
@@ -45,6 +46,7 @@ If the steps above don't work for you, try using `Cowabunga Lite` and clicking t
 If not even that works, the only solution I know is to wipe the device (not ideal). I would recommend using [Nugget Python](https://github.com/leminlimez/Nugget) instead in this case.
 
 ## Credits
+- [LeminLimez](https://github.com/leminlimez/Nugget-Mobile) for Nugget Mobile which Jumbuck is forked from
 - [JJTech](https://github.com/JJTech0130) for Sparserestore/[TrollRestore](https://github.com/JJTech0130/TrollRestore)
 - khanhduytran for [Sparsebox](https://github.com/khanhduytran0/SparseBox)
 - [pymobiledevice3](https://github.com/doronz88/pymobiledevice3)
